@@ -1,3 +1,5 @@
+//Script provided by https://mindgrader.com/tutorials/1-how-to-create-a-simple-javascript-countdown-timer
+
 function countdown()
 {
 // set the date we're counting down to
@@ -16,5 +18,6 @@ var countdown = document.getElementById("countdown");
     seconds_left = seconds_left % 3600;
     minutes = parseInt(seconds_left / 60);
     seconds = parseInt(seconds_left % 60);
-alert("There are " + days + " days, " + hours + " hours, " + minutes + " minutes, " + seconds + " seconds left until game day! Go Green!");
+//I added this part for the alert functionality.
+alert("There are " + days + " days, " + hours + " hours, " + minutes + " minutes, and " + seconds + " seconds left until game day! Go Green!");
 }
